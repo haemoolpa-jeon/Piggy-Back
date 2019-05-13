@@ -1,0 +1,43 @@
+html,
+body {
+	background-color: black;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.container {
+	display: flex;
+	flex-flow: column;
+	height:100%;
+}
+
+.content {
+	width:100%;
+	background-color: white;
+	flex-grow: 1;
+	margin:0;
+}
+
+.navBar {
+	width:100%;
+	height:200px;
+	background-color: green;
+	margin:0;
+}
+
+.navItems {
+	width:100%;
+	height:200px;
+}
+
+.item {
+	height:200px;
+	width:20%;
+}
+
+.navItem {
+	font-size: 100px;
+	height:100%;
+	width:100%;
+}
