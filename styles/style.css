@@ -21,6 +21,12 @@ body {
 	font-size: 100px;
 }
 
+/* ---------------- Stats Styling ---------------- */
+.pieChart {
+	background-color: black;
+	height: 9800px;
+}
+
 /* ----------------- Goal styles ----------------- */
 .list-group {
 	margin-top: 10px; 
@@ -39,6 +45,15 @@ body {
 
 .goal small {
 	font-size: 30px;
+}
+
+.filters {
+	width:100%;
+}
+
+.filter-nav button {
+	width:33%;
+	font-size: 40px;
 }
 
 .progressText {
