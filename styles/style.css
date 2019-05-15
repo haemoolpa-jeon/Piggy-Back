@@ -3,12 +3,91 @@
 html {
   position: relative;
   min-height: 100%;
-  max-width: 100%;
-  overflow-x:hidden;
 }
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+}
+
+/* ---------------- Heading styles ---------------- */
+.heading {
+	background-color: red;
+	position:fixed;
+	width:100%;
+	z-index: 100;
+}
+
+.heading h1 {
+	font-size: 100px;
+}
+
+/* ----------------- Goal styles ----------------- */
+.list-group {
+	margin-top: 10px; 
+}
+
+.goal h5 {
+	font-size: 60px;
+	margin:5px;
+}
+
+.goal p {
+	font-size: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.goal small {
+	font-size: 30px;
+}
+
+.progressText {
+	font-size: 30px;
+}
+
+.floatingAdd {
+	width:20%;
+	height:200px;
+	position: fixed;
+	bottom:300px;
+	margin-left: 70%;
+	float:right;
+}
+
+.floatingAdd button {
+	width: 200px;
+	height:200px;
+	font-size: 100px;
+	border-radius: 100px;
+}
+
+.newGoalForm legend {
+	font-size: 100px;
+}
+
+.newGoalForm input {
+	height: 90px;
+	font-size: 40px;
+}
+
+.newGoalForm label {
+	height: 90px;
+	font-size: 40px;
+}
+
+.newGoalForm select {
+	height: 90px;
+	font-size: 40px;
+}
+
+.newGoalForm button {
+	height: 90px;
+	width: 400px;
+	font-size: 40px;
+}
+
+.newGoalForm a {
+	color: white;
 }
 
 /* Custom page CSS
@@ -23,10 +102,18 @@ body {
   margin: 20px 0;
 }
 
+.content {
+	margin-bottom: 200px;
+}
+
+.contentWithHeading {
+	margin-top: 150px;
+}
+
 /* ----------------- NavBar Styling ----------------- */
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -77,11 +164,29 @@ body {
 #chDonut1 {
 }
 
+/* ---------- Styling for settings screen ---------- */
+.setttings .list-group {
+	font-size: 80px;
+}
 
+.settings a{
+	padding:100px;
+	font-size: 80px;
+}
 
+/* ------- Styling for the information screen ------- */
+.info h5 {
+	font-size: 80px;
+}
 
+.info small {
+	font-size: 30px;
+}
 
+.info p {
+	font-size: 40px;
+}
 
-
-
-
+.info a {
+	padding:40px;
+}
